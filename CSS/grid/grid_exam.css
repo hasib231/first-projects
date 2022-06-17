@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.section{
+    display: grid;
+    height: 90vh;
+    width: 80%;
+    margin: 10px auto;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
+    
+}
+.Featured{
+    background-color: aqua;
+    grid-column: 1/span 3;
+}
+.Header{
+    background-color: aquamarine;
+    grid-column: 4/span 3;
+}
+.Side{
+    background-color: antiquewhite;
+    grid-row: 2/span 5;
+}
+.Products{
+    background-color: cadetblue;
+    grid-row: 2/span 2;
+    grid-column: 2/span 4;
+}
+.Feature2{
+    background-color: rgb(121, 235, 121);
+}
+.Feature3{
+    background-color: rgb(121, 235, 121);
+    grid-row: 4;
+    grid-column: 6;
+}
+.Bonus1{
+    background-color: rgb(237, 90, 90);
+    grid-row: 4;
+    grid-column: 2;
+}
+.Bonus2{
+    background-color: rgb(237, 90, 90);
+    grid-row: 5;
+    grid-column: 3;
+}
+.Bonus3{
+    background-color: rgb(237, 90, 90);
+    grid-row: 4;
+    grid-column: 5;
+}
+.Bonus4{
+    background-color: rgb(237, 90, 90);
+    grid-row: 5;
+    grid-column: 6;
+}
+.Footer{
+    background-color:rgb(149, 64, 228);
+    grid-row: 6;
+    grid-column: 2/ span 5;
+}
